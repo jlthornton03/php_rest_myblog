@@ -4,7 +4,7 @@
         private $host = 'localhost';
         private $dbname = 'myblog';
         private $username = 'root';
-        private $password = '123456';
+        private $password = getenv('mysqlpwd');
         private $conn;
 
         //DB Connect
