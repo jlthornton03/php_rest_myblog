@@ -4,7 +4,7 @@
         private $host = 'eanl4i1omny740jw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
         private $dbname = 'sikqs5dxp6xtbo78';
         private $username = 'naz3cbsk74out143';
-        private $password = getenv(mysqlpwd);
+        private $password = getenv('mysqlpwd');
         private $conn;
 
         //DB Connect
